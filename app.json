@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Laxmi Prasad Portfolio",
+    "slug": "laxmi-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "laxmiportfolio",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
+}
