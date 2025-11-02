@@ -46,4 +46,7 @@
     "typescript": "^5.1.0"
   },
   "private": true
+  ,"engines": {
+    "node": "18.x"
+  }
 }
