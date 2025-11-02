@@ -3,10 +3,14 @@
   "outputDirectory": "web-build",
   "devCommand": "npm run web",
   "framework": "vite",
+  "env": {
+    "EXPO_ROUTER_APP_ROOT": "./app"
+  },
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "installCommand": "npm install"
 }
